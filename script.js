@@ -252,112 +252,97 @@ var typed = new Typed(".hero-subtitle",{
 
 // Skills data with logos and customizable links
         const skillsData = [
-            {
-                name: 'Python',
-                category: 'Programming',
-                logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg',
-                link: 'https://www.python.org/',
-                color: '#3776AB'
-            },
-            {
-                name: 'C',
-                category: 'Programming',
-                logo: 'images/icons8-c.svg',
-                link: 'https://your-portfolio.com/python-projects',
-                color: '#3776AB'
-            },
-            {
-                name: 'C++',
-                category: 'Programming',
-                logo: 'images/icons8-c++.svg',
-                link: 'https://your-portfolio.com/python-projects',
-                color: '#3776AB'
-            },
-            {
-                name: 'HTML',
-                category: 'Programming',
-                logo: 'images/icons8-html.svg',
-                link: 'https://your-portfolio.com/python-projects',
-                color: '#3776AB'
-            },
-            {
-                name: 'CSS',
-                category: 'Programming',
-                logo: 'images/icons8-css.svg',
-                link: 'https://your-portfolio.com/python-projects',
-                color: '#3776AB'
-            },
-            {
-                name: 'JavaScript',
-                category: 'Programming',
-                logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg',
-                link: 'https://your-portfolio.com/javascript-projects',
-                color: '#F7DF1E'
-            },
-            {
-                name: 'Node.js',
-                category: 'Backend',
-                logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg',
-                link: 'https://your-portfolio.com/nodejs-projects',
-                color: '#339933'
-            },
-            {
-                name: 'MySQL',
-                category: 'Database',
-                logo: 'images/icons8-my-sql.svg',
-                link: 'https://your-portfolio.com/mongodb-projects',
-                color: '#47A248'
-            },
-            {
-                name: 'PostgreSQL',
-                category: 'Database',
-                logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg',
-                link: 'https://your-portfolio.com/postgresql-projects',
-                color: '#336791'
-            },
-            {
-                name: 'Docker',
-                category: 'DevOps',
-                logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg',
-                link: 'https://your-portfolio.com/docker-projects',
-                color: '#2496ED'
-            },
-            {
-                name: 'Git',
-                category: 'Version Control',
-                logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg',
-                link: 'https://github.com/your-username',
-                color: '#F05032'
-            },
-            {
-                name: 'Microsoft Word',
-                category: 'Microsoft Office',
-                logo: 'images/icons8-microsoft-word.svg',
-                link: 'https://your-portfolio.com/jenkins-projects',
-                color: '#D33833'
-            },
-            {
-                name: 'Microsoft Excel',
-                category: 'Microsoft Office',
-                logo: 'images/icons8-excel.svg',
-                link: 'https://your-portfolio.com/jenkins-projects',
-                color: '#D33833'
-            },
-            {
-                name: 'Microsoft PowerPoint',
-                category: 'Microsoft Office',
-                logo: 'images/icons8-microsoft-powerpoint.svg',
-                link: 'https://your-portfolio.com/jenkins-projects',
-                color: '#D33833'
-            },
-            {
-                name: 'Visual Studio Code',
-                category: 'IDE',
-                logo: 'images/icons8-visual-studio-code.svg',
-                link: 'https://github.com/your-username',
-                color: '#F05032'
-            }
-        ];
+                {
+                    name: 'Python',
+                    category: 'Programming',
+                    logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg',
+                    link: 'https://www.python.org/'
+                },
+                {
+                    name: 'C',
+                    category: 'Programming',
+                    logo: 'images/icons8-c.svg',
+                    link: 'https://en.cppreference.com/w/c'
+                },
+                {
+                    name: 'C++',
+                    category: 'Programming',
+                    logo: 'images/icons8-c++.svg',
+                    link: 'https://isocpp.org/'
+                },
+                {
+                    name: 'HTML',
+                    category: 'Programming',
+                    logo: 'images/icons8-html.svg',
+                    link: 'https://developer.mozilla.org/en-US/docs/Web/HTML'
+                },
+                {
+                    name: 'CSS',
+                    category: 'Programming',
+                    logo: 'images/icons8-css.svg',
+                    link: 'https://developer.mozilla.org/en-US/docs/Web/CSS'
+                },
+                {
+                    name: 'JavaScript',
+                    category: 'Programming',
+                    logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg',
+                    link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript'
+                },
+                {
+                    name: 'Node.js',
+                    category: 'Backend',
+                    logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg',
+                    link: 'https://nodejs.org/'
+                },
+                {
+                    name: 'MySQL',
+                    category: 'Database',
+                    logo: 'images/icons8-my-sql.svg',
+                    link: 'https://www.mysql.com/'
+                },
+                {
+                    name: 'PostgreSQL',
+                    category: 'Database',
+                    logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg',
+                    link: 'https://www.postgresql.org/'
+                },
+                {
+                    name: 'Docker',
+                    category: 'DevOps',
+                    logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg',
+                    link: 'https://www.docker.com/'
+                },
+                {
+                    name: 'Git',
+                    category: 'Version Control',
+                    logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg',
+                    link: 'https://git-scm.com/'
+                },
+                {
+                    name: 'Microsoft Word',
+                    category: 'Microsoft Office',
+                    logo: 'images/icons8-microsoft-word.svg',
+                    link: 'https://www.microsoft.com/en-us/microsoft-365/word'
+                },
+                {
+                    name: 'Microsoft Excel',
+                    category: 'Microsoft Office',
+                    logo: 'images/icons8-excel.svg',
+                    link: 'https://www.microsoft.com/en-us/microsoft-365/excel'
+                },
+                {
+                    name: 'Microsoft PowerPoint',
+                    category: 'Microsoft Office',
+                    logo: 'images/icons8-microsoft-powerpoint.svg',
+                    link: 'https://www.microsoft.com/en-us/microsoft-365/powerpoint'
+                },
+                {
+                    name: 'Visual Studio Code',
+                    category: 'IDE',
+                    logo: 'images/icons8-visual-studio-code.svg',
+                    link: 'https://code.visualstudio.com/'
+                }
+            ];
 
         // Function to create skill items
         function createSkillItems() {
