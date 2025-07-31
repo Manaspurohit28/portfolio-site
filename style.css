@@ -327,6 +327,7 @@ body.light-theme .scroll-indicator {
     border-radius: 50%;
     background: linear-gradient(135deg, var(--accent-gold), #ffed4a);
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     box-shadow: 0 20px 40px rgba(255, 215, 0, 0.3);
@@ -350,6 +351,8 @@ body.light-theme .scroll-indicator {
 
 
 .about-text {
+      -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
     font-size: 1.1rem;
     line-height: 1.8;
     color: var(--text-muted);
@@ -979,14 +982,23 @@ body.light-theme .scroll-indicator {
     }
     
     .skill-logo {
-        width: 45px;
-        height: 45px;
-    }
-    
-    .skill-logo img {
-        width: 25px;
-        height: 25px;
-    }
+    width: 12vw;              
+    height: auto;             
+    padding: 0.4rem;          
+    border-radius: 6px;       
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.03); 
+  }
+
+  .skill-logo img {
+    width: 8vw;              
+    max-width: 24px;         
+    height: auto;            
+    object-fit: contain;
+    filter: brightness(1.1);
+  }
 }
 
 @media (max-width: 480px) {
@@ -1087,7 +1099,7 @@ body.light-theme .scroll-indicator {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 20px;
+    margin-right: 25px;
     transition: all 0.3s ease;
 }
 
@@ -1097,7 +1109,7 @@ body.light-theme .scroll-indicator {
 
 .contact-icon i {
     color: var(--accent-gold);
-    font-size: 1.2rem;
+    font-size: 1rem;
     transition: color 0.3s ease;
 }
 
@@ -1106,9 +1118,10 @@ body.light-theme .scroll-indicator {
 }
 
 .contact-info a {
+    font-size: 0.75rem ;
     color: #2d5016;
-    font-weight: 500;
-    text-decoration: none;
+    font-weight: 400;
+    text-decoration:solid;
 }
 
 .resume-download {
@@ -1219,6 +1232,22 @@ body.light-theme .contact-right {
         font-size: 1.5rem;
     }
     
+    .profile-image {
+    width: 350px;
+    height: 350px;
+    margin: 0 auto; 
+  }
+
+    .skill-info {
+    flex-direction: column;            
+    width: 100%;            
+    margin-top: 0.5rem;     
+  }
+   .contact-info a {
+        font-size: 0.9rem; 
+        padding: 6px 0;    
+        display: inline-block;
+    }
     .section {
         padding: 60px 15px;
     }
@@ -1240,6 +1269,15 @@ body.light-theme .contact-right {
     .skills-grid {
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     }
+      .skill-name {
+    font-size: 1rem;          
+    margin-bottom: 4px;
+  }
+
+  .skill-category {
+    font-size: 0.75rem;       
+    letter-spacing: 0.4px;
+  }
     
     .resume-item {
         flex-direction: column;
